@@ -47,4 +47,4 @@ Engine tests cover scoring boundaries, ties, late/duplicate answers, host transf
 
 Next.js serves the responsive interface and anonymous API. PostgreSQL stores shared room state. Conditional revision updates and retries prevent concurrent players from overwriting answers or scores. The server owns deadlines and scoring. Clients poll every 500 ms and use the server clock for countdowns. Correct choices stay server-side until reveal. Device tokens are stored in browser session storage and never sent to other players.
 
-Source: `app/page.tsx`, `app/api/game/route.ts`, `lib/game/engine.ts`, `lib/game/store.ts`, `lib/game/questions.ts`. The bundled bank contains 40 reviewed questions.
+Source: `app/page.tsx`, `app/api/game/route.ts`, `lib/game/engine.ts`, `lib/game/store.ts`, `lib/game/questions.ts`. The bundled bank contains 140 reviewed questions.

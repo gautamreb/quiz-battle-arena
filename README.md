@@ -4,6 +4,8 @@ Live trivia for 2–8 players. Create a room, share its six-character code, and 
 
 ## Deploy on Render
 
+[Deploy to Render](https://render.com/deploy?repo=https://github.com/gautamreb/quiz-battle-arena)
+
 1. Push this folder's contents to the **root** of your GitHub repository.
 2. Open Render → **New → Blueprint** and connect `gautamreb/quiz-battle-arena`.
 3. Choose the branch containing `render.yaml`. Render detects a Node web service and a PostgreSQL database.
